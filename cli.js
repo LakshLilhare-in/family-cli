@@ -85,4 +85,5 @@ var options =
 
         family.exportFamily();
       },
-    }).argv;
+    }).help('Family CLI is JSON based family manager that can create a child,adult and export it')
+    .argv;
